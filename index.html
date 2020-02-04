@@ -52,12 +52,108 @@
             
         </div>
         
+		<!-- Section 3 -->
+        <div class="section-3-container section-container">
+	        <div class="container">
+	        	
+	            <div class="row">
+	                <div class="col section-3 section-description wow fadeIn">
+	                    <h2>PROJECTS</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	            
+	            <div class="row">
+	                <div class="col-md-6 section-3-box wow fadeInLeft">
+	                	<div class="row">
+	                		<div class="col-md-3">
+	                			<div class="section-3-box-icon">
+	                				<i class="fas fa-paperclip"></i>
+	                			</div>
+	                		</div>
+	                		<div class="col-md-9">
+	                			<h3>DJANGO</h3>
+		                    	<p>
+		                    		Creation of a web system associated with AWS RDS Aurora MySQL, with Template tags, and context processors. Adaptation of a purchased template hosted in AWS S3 Bucket.  Creation of Login/Logout/PasswordRecovery Views, FormMixin, JsonResponse, robust custom web token system with Django Rest Framework, ModelViewSets, FormsViews, and API Views, including a backend with validations (status code), integration of AngularJs and Angular for the consumption of API's, both external, and also in the same project through TemplateViews without refresh page.
+									Creation of a platform that processes 3 forms simultaneously through post method, associated to 6 models, including foreign keys connection, and corresponding validations.
+									Integration in production as well as service and also in conjunction with Nginx + Gunicorn.
+									Some examples of this, in my Github Django3 repository.
+		                    	</p>
+	                		</div>
+	                	</div>
+	                </div>
+	                <div class="col-md-6 section-3-box wow fadeInLeft">
+	                	<div class="row">
+	                		<div class="col-md-3">
+	                			<div class="section-3-box-icon">
+	                				<i class="fas fa-pencil-alt"></i>
+	                			</div>
+	                		</div>
+	                		<div class="col-md-9">
+	                			<h3>Swift (Alamofire)</h3>
+		                    	<p>
+		                    		Creation of an iOS app with Swift and Alamofire 5, for the integration of Django APIs
+									The app has a SignIn via Alamofire request Django Login Api, where it gets a token that is stored in UserDefault with SuiteName, which is then sent as a Header for requests to the main APIs. These core API calls are made via a ShareExtension, which receives files from Gmail, Webs, or iCloud, etc. Fully integrated and associated to the same UserDefault, with corresponding validations. These calls are only processed by the remote Django API if the token is valid. It then renders the response received casted to JsonResponse, on screen. While all this happens for background, in the app we'll see a custom loading that ends in a custom progress bar adapted to a percentage of result (0-100%).
+									Transition of views, through buttons or Api response validations. On the other hand, there is a menu that has options switch, both of inputs details for the APIs, and also extra data generation, that are sent as a dictionary to the remote API. Internally, a function was made with Localizable Strings, which adapts all the language of both the app and the API response to the language of the phone itself.
+		                    	</p>
+	                		</div>
+	                	</div>
+	                </div>
+	            </div>
+	            
+	            <div class="row">
+	                <div class="col-md-6 section-3-box wow fadeInLeft">
+	                	<div class="row">
+	                		<div class="col-md-3">
+	                			<div class="section-3-box-icon">
+	                				<i class="fab fa-amazon"></i>
+	                			</div>
+	                		</div>
+	                		<div class="col-md-9">
+	                			<h3>Amazon Web Services</h3>
+		                    	<p>
+		                    		Creation of EC2 instances from scratch. Integration of extra volumes, creation of private AMI's to backup data. Use of Elastic Ip. Adaptation to Target Groups and Applications Load Balancer.
+									Use of Certificate Manager, and adaptation of own Hosting to integrate ALB with Route53.
+									Management and creation of permissions for S3. Handling of RDS Aurora MySQL with replications. Custom Security Groups for a robust security system.
+									Creation of a JupyterHub system from scratch fully configured for multi-users with credentials, permissions, and resource limitations, in R5N and P3 for working with CUDA and Tensorflow-GPU from Machine Learning.
+									Creation of manual VPC that enables provisioning of a logically isolated section of the AWS cloud.
+									Use of CodeCommit repositories, for a backup and version control of the projects worked on. 
+									Integration of IAM roles, and Users with delegated permissions from the root account.
+		                    	</p>
+	                		</div>
+	                	</div>
+	                </div>
+	                <div class="col-md-6 section-3-box wow fadeInLeft">
+	                	<div class="row">
+	                		<div class="col-md-3">
+	                			<div class="section-3-box-icon">
+	                				<i class="fab fa-linux"></i>
+	                			</div>
+	                		</div>
+	                		<div class="col-md-9">
+	                			<h3>Linux: Ubuntu</h3>
+		                    	<p>
+		                    		Integration of Zsh and also Anaconda with Zsh support at the bash level
+									Creation of scripts for cleaning up junk files, for automatic system updates, for automated tasks, etc. Using crontabs and python file services.
+									Installation of node.js, installation of Nvidia drivers, among others that allow the use of Tensorflow-GPU for Machine Learning with Anaconda.
+									Environment adaptation to access routes directly with the $ prefix.
+									Installation and management of MySQL through Dbeaver and MySQL Workbench.
+									Some examples of this, in my Github Ubuntu repository.
+		                    	</p>
+	                		</div>
+	                	</div>
+	                </div>
+	            </div>
+
+	        </div>
+        </div>
+
         <!-- Section 1 -->
-        <div class="section-1-container section-container">
+        <div class="section-1-container section-container section-container-gray-bg">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col section-1 section-description wow fadeIn">
-	                    <h2>PROJECTS</h2>
+	                    <h2>UNIVERSITY PROJECTS</h2>
 	                    <div class="divider-1 wow fadeInUp"><span></span></div>
 	                </div>
 	            </div>
@@ -101,7 +197,7 @@
 	                	<div class="row">
                 			<div class="col-md-4">
 			                	<div class="section-1-box-icon">
-			                		<i class="fas fa-pencil-alt"></i>
+			                		<i class="fas fa-money-bill-alt"></i>
 			                	</div>
 		                	</div>
 	                		<div class="col-md-8">
@@ -114,10 +210,10 @@
                     </div>
 	            </div>
 	        </div>
-        </div>
+        </div>		
 
         <!-- Section 2 -->
-        <div class="section-2-container section-container section-container-gray-bg">
+        <div class="section-2-container section-container">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col section-2 section-description wow fadeIn">
@@ -143,90 +239,6 @@
                     	</p>
 	                </div>
 	            </div>
-	        </div>
-        </div>
-
-		<!-- Section 3 -->
-        <div class="section-3-container section-container">
-	        <div class="container">
-	        	
-	            <div class="row">
-	                <div class="col section-3 section-description wow fadeIn">
-	                    <h2>Section 3</h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
-	                </div>
-	            </div>
-	            
-	            <div class="row">
-	                <div class="col-md-6 section-3-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-md-3">
-	                			<div class="section-3-box-icon">
-	                				<i class="fas fa-paperclip"></i>
-	                			</div>
-	                		</div>
-	                		<div class="col-md-9">
-	                			<h3>Ut wisi enim ad minim</h3>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    		Ut wisi enim ad minim veniam, quis nostrud.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	                <div class="col-md-6 section-3-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-md-3">
-	                			<div class="section-3-box-icon">
-	                				<i class="fas fa-pencil-alt"></i>
-	                			</div>
-	                		</div>
-	                		<div class="col-md-9">
-	                			<h3>Sed do eiusmod tempor</h3>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    		Ut wisi enim ad minim veniam, quis nostrud.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	            </div>
-	            
-	            <div class="row">
-	                <div class="col-md-6 section-3-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-md-3">
-	                			<div class="section-3-box-icon">
-	                				<i class="fas fa-cloud"></i>
-	                			</div>
-	                		</div>
-	                		<div class="col-md-9">
-	                			<h3>Quis nostrud exerci tat</h3>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    		Ut wisi enim ad minim veniam, quis nostrud.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	                <div class="col-md-6 section-3-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-md-3">
-	                			<div class="section-3-box-icon">
-	                				<i class="fab fa-google"></i>
-	                			</div>
-	                		</div>
-	                		<div class="col-md-9">
-	                			<h3>Minim veniam quis nostrud</h3>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    		Ut wisi enim ad minim veniam, quis nostrud.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	            </div>
-
 	        </div>
         </div>
 
@@ -257,7 +269,7 @@
 	           			<div class="col-md-6 footer-social">
 	                    	<a href="https://github.com/nouvellie"><i class="fab fa-github"></i></a> 
 							<a href="https://stackoverflow.com/users/11096880/nouvellie"><i class="fab fa-stack-overflow"></i></a> 
-							<a href="https://www.youtube.com/channel/UCaagFxEfRvM0NfX8bFKjsWw?view_as=subscriber"><i class="fab fa-youtube"></i></a>
+							<!-- <a href="https://www.youtube.com/channel/UCaagFxEfRvM0NfX8bFKjsWw?view_as=subscriber"><i class="fab fa-youtube"></i></a> -->
 	                    </div>
 	           		</div>
 	        	</div>
