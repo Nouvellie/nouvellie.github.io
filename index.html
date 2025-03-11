@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="PERSONAL WEBPAGE">
-    	<meta name="author" content="ROBERTO SERGIO ROCUANT VENEGAS">
+    	<meta name="author" content="ROCUANT ROBERTO">
     	<title>NOUVELLIE</title>
 
         <!-- CSS -->
@@ -37,10 +37,10 @@
                 	
                     <div class="row">
                         <div class="col-md-8 offset-md-2 text">
-                            <h1 class="wow fadeInLeftBig">ROCUANT VENEGAS ROBERTO SERGIO</h1>
+                            <h1 class="wow fadeInLeftBig">ROCUANT ROBERTO</h1>
                             <div class="description wow fadeInUp">
                             	<p>
-	                            	Computer Science Engineering<br>
+	                            	Computer Science Engineer<br>
 	                            	Bachelor of Science in Engineering
                             	</p>
                             </div>
@@ -72,15 +72,25 @@
 	                			</div>
 	                		</div>
 	                		<div class="col-md-9">
-	                			<h3>DJANGO</h3>
-		                    	<p>
-		                    		Creation of a web system associated with AWS RDS Aurora MySQL, with Template tags, and context processors. Adaptation of a purchased template hosted in AWS S3 Bucket.  Creation of Login/Logout/PasswordRecovery Views, FormMixin, JsonResponse, robust custom web token system with Django Rest Framework, ModelViewSets, FormsViews, and API Views, including a backend with validations (status code), integration of AngularJs and Angular for the consumption of API's, both external, and also in the same project through TemplateViews without refresh page.
-									Creation of a platform that processes 3 forms simultaneously through post method, associated to 6 models, including foreign keys connection, and corresponding validations.
-									Integration in production as well as service and also in conjunction with Nginx + Gunicorn.
+								<h3>Development of a Web System with AWS and Django</h3>
+								<p>
+									Designed and implemented a <strong>web system</strong> integrated with 
+									<strong>AWS RDS Aurora MySQL</strong>, leveraging <strong>Django Template Tags</strong> and 
+									<strong>Context Processors</strong>. Adapted a purchased <strong>frontend template</strong>, hosting it in an 
+									<strong>AWS S3 Bucket</strong> for efficient content delivery.
+									<br><br>
+									<strong>Key Features & Technologies:</strong>
+									<ul>
+										<li><strong>Authentication System:</strong> Developed <strong>Login, Logout, and Password Recovery</strong> views using Django’s authentication system, FormMixin, and JsonResponse.</li>
+										<li><strong>Custom Web Token System:</strong> Built a <strong>robust token-based authentication</strong> mechanism with <strong>Django Rest Framework (DRF)</strong>, including ModelViewSets, FormViews, and API Views.</li>
+										<li><strong>Frontend Integration:</strong> API consumption via <strong>AngularJS and Angular</strong>, supporting both external APIs and internal TemplateViews for a seamless <strong>SPA-like experience</strong> (without page refresh).</li>
+										<li><strong>Advanced Form Processing:</strong> Engineered a <strong>multi-form processing system</strong> that handles <strong>three forms simultaneously via POST</strong>, linked to <strong>six database models with foreign key relationships and validation mechanisms</strong>.</li>
+										<li><strong>Production Deployment:</strong> Deployed and optimized the system using <strong>Nginx + Gunicorn</strong>, ensuring high performance and scalability.</li>
+									</ul>
 									<br>
-									<a href="https://github.com/Nouvellie/django3">Github/Django</a>
-		                    	</p>
-	                		</div>
+									<a href="https://github.com/Nouvellie/django3" target="_blank">GitHub/Django</a>
+								</p>
+							</div>							
 	                	</div>
 	                </div>
 	                <div class="col-md-6 section-3-box wow fadeInLeft">
@@ -91,13 +101,20 @@
 	                			</div>
 	                		</div>
 	                		<div class="col-md-9">
-	                			<h3>Swift (Alamofire)</h3>
-		                    	<p>
-		                    		Creation of an iOS app with Swift and Alamofire 5, for the integration of Django APIs
-									The app has a SignIn via Alamofire request Django Login Api, where it gets a token that is stored in UserDefault with SuiteName, which is then sent as a Header for requests to the main APIs. These core API calls are made via a ShareExtension, which receives files from Gmail, Webs, or iCloud, etc. Fully integrated and associated to the same UserDefault, with corresponding validations. These calls are only processed by the remote Django API if the token is valid. It then renders the response received casted to JsonResponse, on screen. While all this happens for background, in the app we'll see a custom loading that ends in a custom progress bar adapted to a percentage of result (0-100%).
-									Transition of views, through buttons or Api response validations. On the other hand, there is a menu that has options switch, both of inputs details for the APIs, and also extra data generation, that are sent as a dictionary to the remote API. Internally, a function was made with Localizable Strings, which adapts all the language of both the app and the API response to the language of the phone itself.
-		                    	</p>
-	                		</div>
+								<h3>Swift (Alamofire)</h3>
+								<p>
+									Developed an <strong>iOS application</strong> using <strong>Swift and Alamofire 5</strong> to integrate with a <strong>Django-based API</strong>.
+									<br><br>
+									<strong>Key Features & Technologies:</strong>
+									<ul>
+										<li><strong>User Authentication:</strong> Implemented a <strong>Sign-In system</strong> via an Alamofire request to the Django Login API, retrieving a token stored in <strong>UserDefaults (SuiteName)</strong>. The token is sent as a <strong>Header</strong> for subsequent API requests.</li>
+										<li><strong>File Processing via ShareExtension:</strong> Integrated with Gmail, Web browsers, iCloud, and other sources to handle incoming files. API calls are processed only if the token is valid, ensuring secure remote communication.</li>
+										<li><strong>Real-Time UI Updates:</strong> API responses are parsed into <strong>JsonResponse</strong> and displayed dynamically on-screen. Background API processing includes a <strong>custom loading animation</strong> that transitions into a <strong>progress bar</strong> reflecting a percentage-based completion (0-100%).</li>
+										<li><strong>View Transitions & Menu Features:</strong> Implemented navigation through buttons and API response validations. The app includes a dynamic settings menu with <strong>switch options</strong> for API input details and additional data generation, sent as a dictionary to the API.</li>
+										<li><strong>Multilingual Support:</strong> Created a function with <strong>Localizable Strings</strong> that adapts both the app UI and API responses to match the device’s language settings.</li>
+									</ul>
+								</p>
+							</div>							
 	                	</div>
 	                </div>
 	            </div>
@@ -111,22 +128,27 @@
 	                			</div>
 	                		</div>
 	                		<div class="col-md-9">
-	                			<h3>Amazon Web Services</h3>
-		                    	<p>
-		                    		Creation of EC2 instances from scratch. Integration of extra volumes, creation of private AMI's to backup data. Use of Elastic Ip. Adaptation to Target Groups and Applications Load Balancer.
-									Use of Certificate Manager, and adaptation of own Hosting to integrate ALB with Route53.
-									Management and creation of permissions for S3. Handling of RDS Aurora MySQL with replications. Custom Security Groups for a robust security system.
-									Creation of a JupyterHub system from scratch fully configured for multi-users with credentials, permissions, and resource limitations, in R5N and P3 for working with CUDA and Tensorflow-GPU from Machine Learning.
-									Creation of manual VPC that enables provisioning of a logically isolated section of the AWS cloud.
-									Use of CodeCommit repositories, for a backup and version control of the projects worked on. 
-									Integration of IAM roles, and Users with delegated permissions from the root account.
+								<h3>Amazon Web Services (AWS)</h3>
+								<p>
+									Designed and implemented various AWS cloud solutions, including EC2 instance provisioning, networking, security, and resource optimization.
+									<br><br>
+									<strong>Key AWS Implementations:</strong>
+									<ul>
+										<li><strong>EC2 Management:</strong> Created EC2 instances from scratch, integrated extra volumes, and configured private AMIs for data backup. Implemented <strong>Elastic IP</strong> for static addressing.</li>
+										<li><strong>Load Balancing & Routing:</strong> Configured <strong>Target Groups and Application Load Balancer (ALB)</strong> with <strong>Route 53</strong>, integrating AWS Certificate Manager for secure hosting.</li>
+										<li><strong>Storage & Database:</strong> Managed **S3 permissions** and policies for data security. Configured **Amazon RDS Aurora MySQL** with replication strategies for high availability.</li>
+										<li><strong>Security & Identity Management:</strong> Defined **custom Security Groups** for a robust security architecture. Created **IAM roles and users** with delegated permissions from the root account.</li>
+										<li><strong>JupyterHub Deployment:</strong> Built and configured a **multi-user JupyterHub system** from scratch, running on **R5N and P3 instances** for **CUDA and TensorFlow-GPU** workloads in Machine Learning.</li>
+										<li><strong>Networking & VPC:</strong> Designed a **manual VPC** to provision a logically isolated AWS cloud environment.</li>
+										<li><strong>Version Control & CI/CD:</strong> Integrated **AWS CodeCommit** for project backup and version control.</li>
+									</ul>
 									<br>
-									<a href="https://github.com/Nouvellie/amazon-1st">Github/AWS CSA</a>
+									<a href="https://github.com/Nouvellie/amazon-1st" target="_blank">GitHub/AWS CSA</a>
 									<br>
-									<a href="https://github.com/Nouvellie/amazon">Github/AWS</a>
-									
-		                    	</p>
-	                		</div>
+									<a href="https://github.com/Nouvellie/amazon" target="_blank">GitHub/AWS</a>
+								</p>
+							</div>
+							
 	                	</div>
 	                </div>
 	                <div class="col-md-6 section-3-box wow fadeInLeft">
@@ -137,17 +159,29 @@
 	                			</div>
 	                		</div>
 	                		<div class="col-md-9">
-	                			<h3>Linux: Ubuntu</h3>
-		                    	<p>
-		                    		Integration of Zsh and also Anaconda with Zsh support at the bash level
-									Creation of scripts for cleaning up junk files, for automatic system updates, for automated tasks, etc. Using crontabs and python file services.
-									Installation of node.js, installation of Nvidia drivers, among others that allow the use of Tensorflow-GPU for Machine Learning with Anaconda.
-									Environment adaptation to access routes directly with the $ prefix.
-									Installation and management of MySQL through Dbeaver and MySQL Workbench.
+								<h3>Linux: Ubuntu</h3>
+								<p>
+									Configured and optimized the Ubuntu environment for development, automation, and machine learning workflows.
+									<br><br>
+									<strong>Key Implementations:</strong>
+									<ul>
+										<li><strong>Shell & Terminal Customization:</strong> Integrated <strong>Zsh</strong> with full support for <strong>Anaconda</strong> at the bash level.</li>
+										<li><strong>Automation & Scripting:</strong> Developed scripts for:
+											<ul>
+												<li>Cleaning junk files</li>
+												<li>Automating system updates</li>
+												<li>Scheduling tasks using <strong>crontabs</strong> and Python file services</li>
+											</ul>
+										</li>
+										<li><strong>Development Environment:</strong> Installed and managed <strong>Node.js</strong> and <strong>Nvidia drivers</strong> to enable <strong>TensorFlow-GPU</strong> support for Machine Learning within Anaconda.</li>
+										<li><strong>Custom Environment Variables:</strong> Configured system paths for direct access using the <strong>$ prefix</strong>.</li>
+										<li><strong>Database Management:</strong> Installed and managed <strong>MySQL</strong> using <strong>DBeaver</strong> and <strong>MySQL Workbench</strong>.</li>
+									</ul>
 									<br>
-									<a href="https://github.com/Nouvellie/ubuntu">Github/Ubuntu</a>
-		                    	</p>
-	                		</div>
+									<a href="https://github.com/Nouvellie/ubuntu" target="_blank">GitHub/Ubuntu</a>
+								</p>
+							</div>
+							
 	                	</div>
 	                </div>
 	            </div>
@@ -173,12 +207,16 @@
 			                	</div>
 		                	</div>
 	                		<div class="col-md-8">
-	                    		<h3>Thesis: Nouvellie Social Network</h3>
-	                    		<p>
-	                    			Creation of a social network model as a channel of diffusion, grouping and musical communication, developed in Python Language with the Django Framework, and a PostgreSQL as database motor.
-									The main idea of this social network is to help people in the creation of bands and, what is more important, in their transparent and massive diffusion. It works with profiles of people associated to an instrument and musical style, to filter in searches quickly and to be able to create bands in a more efficient and personalized way, and at the same time to be able to spread music and information openly and without needing to spend money to achieve it.
+								<h3>Nouvellie: University Thesis – Development of a Social Network for Music Collaboration and Promotion</h3>
+								<p>
+									Designed and implemented a <strong>social network model</strong> as a platform for <strong>music discovery, collaboration, and promotion</strong>, developed using <strong>Python (Django Framework) and PostgreSQL</strong>.
+									<br><br>
+									The primary goal of this platform is to assist musicians in forming bands and, more importantly, to enable <strong>transparent and widespread music promotion</strong>. The system features <strong>user profiles linked to specific instruments and musical genres</strong>, allowing for <strong>efficient filtering in searches</strong> to facilitate band formation in a more personalized and effective way. 
+									<br><br>
+									Additionally, it provides an <strong>open space for sharing music and information freely, without financial barriers</strong>.
 								</p>
-	                    	</div>
+							</div>
+							
 	                    </div>
                     </div>
                     <div class="col-md-4 section-1-box wow fadeInDown">
@@ -189,15 +227,18 @@
 			                	</div>
 		                	</div>
 	                		<div class="col-md-8">
-	                    		<h3>Geometric Meshes: Algorithm</h3>
-	                    		<p>
-	                    			Improvement of the quality of the 2D geometric meshes of the Delaunay triangles, by means of criteria in the limit of the angles, refining Africa of 9665 triangles.
-									Developed in Python with the Numpy library, sequential and parallel with MPI, a hybrid version of Rivara's 4T method.
-									Programmed from scratch, creating all the mathematical area, and operation.
-									It started as a project in c and c++, which became quite complicated, to then continue with Java, and finally we decided to do everything from scratch keeping the logic using and learning Python at the same time, given the ease provided by this programming language with its libraries.
-									The project was at the level of our teacher's thesis in the course of Parallel Computing (tenth semester).
+								<h3>Geometric Meshes: Algorithm for 2D Delaunay Triangulations</h3>
+								<p>
+									Developed an algorithm to <strong>enhance the quality of 2D geometric meshes</strong> for <strong>Delaunay triangulations</strong>, using <strong>angle-based refinement criteria</strong> to improve mesh resolution. The project involved refining a <strong>geometric mesh of Africa</strong> consisting of <strong>9,665 triangles</strong>.
+									<br><br>
+									Implemented in <strong>Python (NumPy)</strong>, both <strong>sequentially and in parallel using MPI</strong>, incorporating a hybrid adaptation of <strong>Rivara’s 4T refinement method</strong>. The entire mathematical framework and operations were <strong>designed and coded from scratch</strong>.
+									<br><br>
+									Originally prototyped in <strong>C and C++</strong>, the complexity of implementation led to a transition to <strong>Java</strong>. Ultimately, the entire project was <strong>rewritten from scratch in Python</strong>, leveraging its <strong>powerful libraries and flexibility</strong> to improve development efficiency and learning.
+									<br><br>
+									This project reached a <strong>research-level complexity equivalent to our professor’s thesis</strong>, conducted as part of the <strong>Parallel Computing course (10th semester)</strong>.
 								</p>
-	                    	</div>
+							</div>
+							
 	                    </div>
                     </div>
                     <div class="col-md-4 section-1-box wow fadeInUp">
@@ -208,11 +249,14 @@
 			                	</div>
 		                	</div>
 	                		<div class="col-md-8">
-	                    		<h3>Fia-2s: Software</h3>
-	                    		<p>
-									Construction of software in Visual Studio with Visual Basic, adapting a payment system, reliable purchase (money back guarantee), balances and inventories to a small company. All managed on the mysql server.
-	                    		</p>
-	                    	</div>
+								<h3>Fia-2S: Software Development</h3>
+								<p>
+									Developed a <strong>custom payment and inventory management system</strong> for a small business using <strong>Visual Basic in Visual Studio</strong>, integrated with a <strong>MySQL database</strong>.
+									<br><br>
+									The software featured a <strong>secure payment system</strong>, a <strong>money-back guarantee mechanism</strong>, and <strong>balance and inventory management tools</strong> to improve operational efficiency.
+								</p>
+							</div>
+							
 	                    </div>
                     </div>
 	            </div>
@@ -224,49 +268,57 @@
 	        <div class="container">
 	            <div class="row">
 	                <div class="col section-4 section-description wow fadeInLeftBig">
-	                	<h2>International Telemedical Systems Holding SPA</h2>
-	                	<h4>Development Engineer, FullStack (Aug 2018 - Until Now)</h4>
-	                    <p>
-	                    	Amazon Web Service. (EC2, ALB, VPC, Route53, S3B, RDS)
-							Django and Python. (include Rest Framework)
-							Machine Learning integration.
-							API Rest.
-							HTML/CSS.
-							Swift 5.
-	                    </p>
-	                    <br>
-	                    <h2>International Telemedical Systems Chile</h2>
-	                    <h4>Development Engineer (Aug 2018 - Nov 2019)</h4>
-	                    <p>
-	                    	Django and Python. (include Rest Framework)
-							Machine Learning integration.
-							HTML/CSS.
-	                    </p>
-	                    <br>
-	                    <h2>SF Ingeniería LTDA.</h2>
-	                    <h4>Software Application Engineer (Sep 2017 - Dec 2017)</h4>
-	                    <p>
-	                    	Software maintenance.
-	                    </p>
-	                    <br>
-	                    <h2>Unidos En Red</h2>
-	                    <h4>Packaging Intern (Jan 2008 - Jul 2017)</h4>
-	                    <p>
-	                    	Packaging and wrapping.
-	                    </p>
-	                    <br>
-	                    <h2>Walmart Chile</h2>
-	                    <h4>System Analyst, Internship. (Jan 2017 - Mar 2017)</h4>
-	                    <p>
-	                    	Excel macros to automate longest tasks, benchmarks, Teradata SQL and Business Intelligence.
-	                    </p>
-	                    <br>
-	                    <h2>REBUSS Inventarios S.A.</h2>
-	                    <h4>Machine Operator (Jan 2009 - Dec 2012)</h4>
-	                    <p>
-	                    	Validator and inventories.
-	                    </p>
-	                </div>
+						<h2>Atrys</h2>
+						<h4>IA Development Engineer (Dec 2019 - Present)</h4>
+						<p>
+							<strong>Technical Skills:</strong>
+							<ul>
+								<li><strong>AWS:</strong> EC2, ALB, VPC, R53, S3, RDS (Aurora MySQL), APIGW, Cognito, SM, SQS, SNS, Lambda, CW, EB, IAM</li>
+								<li><strong>Backend:</strong> Django, DRF, Docker, Nginx, Gunicorn</li>
+								<li><strong>ML/MLOps:</strong> TensorFlow, TFLite, Torch, EfficientNet, RetinaNet</li>
+								<li><strong>Databases:</strong> MySQL, Aurora</li>
+								<li><strong>Frontend:</strong> HTML/CSS (basic), JS (AngularJS, Angular, React/Next basics)</li>
+								<li><strong>Mobile:</strong> Swift 5</li>
+								<li><strong>API Development:</strong> RESTful APIs, Web services for Android/iOS</li>
+							</ul>
+						</p>
+						<h4>Development Engineer (Aug 2018 - Nov 2019)</h4>
+						<p>
+							<strong>Technical Skills:</strong>
+							<ul>
+								<li><strong>AWS:</strong> EC2, ALB, VPC, R53, S3, RDS (Aurora MySQL)</li>
+								<li><strong>Backend:</strong> Django, DRF, Nginx, Gunicorn</li>
+								<li><strong>Databases:</strong> MySQL, Aurora</li>
+								<li><strong>Frontend:</strong> HTML/CSS (basic), JS (AngularJS, Angular)</li>
+								<li><strong>Mobile:</strong> Swift 5</li>
+								<li><strong>API Development:</strong> RESTful APIs</li>
+							</ul>
+						</p>
+					
+						<h2>SF Ingeniería LTDA.</h2>
+						<h4>Software Application Engineer (Sep 2017 - Dec 2017)</h4>
+						<p>Software maintenance.</p>
+					
+						<h2>Unidos En Red</h2>
+						<h4>Packaging Intern (Jan 2008 - Jul 2017)</h4>
+						<p>Packaging and wrapping.</p>
+					
+						<h2>Walmart Chile</h2>
+						<h4>System Analyst, Internship (Jan 2017 - Mar 2017)</h4>
+						<p>
+							<strong>Technical Skills:</strong>
+							<ul>
+								<li><strong>Excel Automation:</strong> Macros & VBA for task automation</li>
+								<li><strong>Data Analysis & Performance:</strong> Benchmarks & Optimization</li>
+								<li><strong>Databases:</strong> Teradata SQL</li>
+								<li><strong>Business Intelligence (BI):</strong> Data visualization & reporting</li>
+							</ul>
+						</p>
+					
+						<h2>REBUSS Inventarios S.A.</h2>
+						<h4>Warehouse Inventory Specialist (Jan 2009 - Dec 2012)</h4>
+						<p>Inventory Control Assistant.</p>
+					</div>					
 	            </div>
 	        </div>
         </div>
@@ -278,74 +330,116 @@
 	            <div class="row">
 	            	
 	                <div class="col section-4 section-description wow fadeInLeftBig text-center">
-	                		
-	                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-	                    	<h4>Computer</h4>
-							Python/Django
+						<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+							<h4>Technical Skills</h4>
+					
+							<strong>Python/Django</strong>
 							<div class="progress">
-							  <!-- <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div> -->
-							  <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 100%" 
+									aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+								</div>
 							</div>
-							C/C++/Java
+					
+							<strong>C/C++/Java</strong>
 							<div class="progress">
-							  <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" 
+									aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+								</div>
 							</div>
-							Swift/JS
+					
+							<strong>Swift/JavaScript</strong>
 							<div class="progress">
-							  <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 75%" 
+									aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+								</div>
 							</div>
-							Html/Css
+					
+							<strong>HTML/CSS</strong>
 							<div class="progress">
-							  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 90%" 
+									aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+								</div>
 							</div>
-							MySQL/SQLServer
+					
+							<strong>MySQL/SQL Server</strong>
 							<div class="progress">
-							  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 80%" 
+									aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+								</div>
 							</div>
-							Linux/Windows/MacOS
+					
+							<strong>Linux/Windows/macOS</strong>
 							<div class="progress">
-							  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 100%" 
+									aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+								</div>
 							</div>
-							Git/Github/CodeCommit
+					
+							<strong>Git/GitHub/CodeCommit</strong>
 							<div class="progress">
-							  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 90%" 
+									aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+								</div>
 							</div>
-							AWS(R53,S3,RDS,EC2,VPC,ALB,CC)
+					
+							<strong>AWS (R53, S3, RDS, EC2, VPC, ALB, CC)</strong>
 							<div class="progress">
-							  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 70%" 
+									aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+								</div>
 							</div>
 						</div>
-	                </div>
+					</div>
+					
 
 	                <div class="col section-4 section-description wow fadeInLeftBig">
-	                	<div class="container col-sm-6 col-md-6 col-lg-6 col-xl-6">
-		                	<h4>Others</h4>
-		                	English
+						<div class="container col-sm-6 col-md-6 col-lg-6 col-xl-6">
+							<h4>Other Skills & Interests</h4>
+					
+							<strong>English</strong>
 							<div class="progress">
-							  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 65%" 
+									aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+								</div>
 							</div>
-							Guitar/Piano (2002-2020)
+					
+							<strong>Guitar & Piano (2002-2020)</strong>
 							<div class="progress">
-							  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" 
+									aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+								</div>
 							</div>
-							Piano (2003-2020)
+					
+							<strong>Piano (2003-2020)</strong>
 							<div class="progress">
-							  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 70%" 
+									aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+								</div>
 							</div>
-							Billiards
+					
+							<strong>Billiards</strong>
 							<div class="progress">
-							  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 70%" 
+									aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+								</div>
 							</div>
-							Football
+					
+							<strong>Football</strong>
 							<div class="progress">
-							  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 90%" 
+									aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+								</div>
 							</div>
-							Karate (2015-2019)
+					
+							<strong>Karate (2015-2019)</strong>
 							<div class="progress">
-							  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 40%" 
+									aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+								</div>
 							</div>
+				
 						</div>
-                	</div>
+					</div>					
                 </div>
             </div>
         </div>
@@ -358,7 +452,7 @@
 	        	<div class="container">
 	        		<div class="row">
 	           			<div class="col-md-6 footer-copyright">
-	                    	&copy; ROCUANT VENEGAS ROBERTO S. <a href="#">NOUVELLIE 2020</a>
+	                    	&copy; ROCUANT ROBERTO <a href="#">NOUVELLIE 2020</a>
 	                    </div>
 	           			<div class="col-md-6 footer-social">
 							<a href="https://github.com/nouvellie"><i class="fab fa-github"></i></a> 
